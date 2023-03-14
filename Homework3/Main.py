@@ -10,7 +10,7 @@ your_function(1, 5, -3, 'abc', [12, 56, 'cad'])
 your_function()
 
 
-def your_function(*args, param_1):
+def your_function(param_1 , *args):
     print(args)
     result = [val for val in args if isinstance(val, (int, float))]
     print(result)
