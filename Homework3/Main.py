@@ -18,12 +18,13 @@
 # return total
 def get_sum_from_kwargs(*args, **kwargs):
     total = 0
-    for arg in args:
-        if isinstance(arg, (int, float)):
-            total += arg
-    for kwarg in kwargs:
+
+    print(kwargs)
+    for kwarg in kwargs.values():
+
         if isinstance(kwarg, (int, float)):
             total += kwarg
+            print(kwarg)
 
     return total
 
@@ -37,8 +38,21 @@ print(get_sum_from_kwargs(2, 4, 'abc', param_1=2, param_2=3))
 # print(get_sum_from_parameters(2, 4, "abc", param_1=2))
 # print(get_sum_from_parameters(2, 4, "abc", param_1=2, param_2="abc"))
 # print(get_sum_from_parameters(2, 4, "abc", param_1=2, param_2="abc", param_3=2.5))
+# TODO #2: Account for every number at any level in both `args` and `kwargs`
+def get_sum_from_all(*args, **kwargs):
+    total = 0
+    for arg in args:
+        if isinstance(arg, (int, float)):
+            total += arg
+    for kwarg in kwargs.values():
 
-# # Exercise Nr. 2 - Recursive sum with "multiple return values"
+        if isinstance(kwarg, (int, float)):
+            total += kwarg
+            print(kwarg)
+
+    return total
+print(get_sum_from_all(2, 4, 'abc', param_1=2, param_2=3))
+# Exercise Nr. 2 - Recursive sum with "multiple return values"
 # def get_rec_sum(n: int) -> tuple:
 #     if n == 0:
 #         return 0, 0, 0
