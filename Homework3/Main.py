@@ -1,3 +1,4 @@
+# The solution of first exercise:
 def get_sum(*args, **kwargs):
     total = 0
     result = [val for val in args if isinstance(val, (int, float))]
@@ -20,27 +21,7 @@ get_sum()
 print(get_sum(2, 4, 'abc', param_1=2, param_2=3))
 
 
-def insert_number():
-    number = input('type number: ')
-    return int(number)
-
-
-def verfication():
-    while True:
-        try:
-            number = insert_number()
-            return number
-        except ValueError:
-            print('Value is not a number')
-    print(verfication())
-
-    def show_number():
-        print(verfication())
-
-
-insert_number()
-
-
+# The solution of second exercise
 def f(n):
     if n == 0:
         return [0]
@@ -61,3 +42,16 @@ odd_numbers = f1[1::2]
 print('numerele impare sunt: ', odd_numbers)
 sum_of_odd_numbers = sum(odd_numbers)
 print('Suma numerelor impare este: ', sum_of_odd_numbers)
+
+
+# The solution of third exercise:
+def get_number():
+    number = input("Write a number: ")
+
+    try:
+        return int(number)
+    except ValueError:
+        return 0
+
+
+print(get_number())
