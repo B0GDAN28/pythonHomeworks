@@ -1,14 +1,13 @@
-BRAND,MODEL,HORSEPOWER,PRICE
-Dacia, Logan I, 100,  900
-Dacia, Sandero, 90,   700
+BRAND,MODEL,HORSEPOWER,CATEGORY
 Opel, Astra H, 150,  2500
+Dacia, Logan I, 100,  900
+ BMW,  520d , 190,  15000
 Ford, Focus II,130,  2000
-BMW,  520D,    190, 15000
-Volkwagen, Passta, 170, 5000
+Dacia,Sandero, 90, 700
+Volkwagen, Passat, 170, 5000
 Skoda, Superb, 150, 4000
 Audi, A6, 190, 13000
 Mercedes-Benz, E-klasse, 190, 17000
 Skoda, Octavia, 140, 3000
-BMW,760IL, 600, 160000
-Lamborghini, Veneno, 750,830000
+
 

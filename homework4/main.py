@@ -1,4 +1,5 @@
 from car_data import car_list
+
 if __name__ == '__main__':
     # point 1
     all_cars = [{"brand": "Opel", "Model": "Astra H", "hp": 150, "price": 2500},
@@ -39,10 +40,16 @@ if __name__ == '__main__':
     print("Cars with price high are: ", expensive_cars)
 
     # point 3
+    import os
     import csv
+    import json
 
     with open('input.csv', newline='') as input_csv:
         reader = csv.reader(input_csv, delimiter=',', quotechar='"')
         for row in reader:
             print(', '.join(row))
+
+    if not os.path.exists("output_data"):
+        os.makedirs("output_data")
+
 
