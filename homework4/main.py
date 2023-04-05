@@ -29,10 +29,41 @@ if __name__ == '__main__':
     import csv
     import json
 
-    with open('input.csv', newline='') as input_csv:
-        reader = csv.reader(input_csv, delimiter=',', quotechar='"')
-        for row in reader:
-            print(', '.join(row))
+    data = {}
 
-    if not os.path.exists("output_data"):
-        os.makedirs("output_data")
+    with open('input.csv', newline='') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            BRAND = row["BRAND"]
+            if BRAND not in data:
+                data[BRAND] = []
+            data[BRAND].append(row)
+
+
+            def is_slow_car(car6):
+                return int(car6["HORSEPOWER"]) < 120
+
+
+            def is_fast_car(car7):
+                return 120 < int(car7["HORSEPOWER"]) < 180
+
+
+            def is_sport_car(car8):
+                return int(car8["HORSEPOWER"]) >= 180
+
+
+            def is_cheap_car(car9):
+                return int(car9["PRICE"]) < 1000
+
+
+            def is_medium_car(car10):
+                return 1000 < int(car10["PRICE"] < 5000)
+
+
+            def is_expensive_car(car11):
+                return int(car11["PRICE"]) >= 5000
+
+    output_folder = 'output_data'
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
+
