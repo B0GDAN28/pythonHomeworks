@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0bac68e0-4832-425b-85cf-41a0921b4704" name="Changes" comment="homework4">
+      <change beforePath="$PROJECT_DIR$/homework4/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework4/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Setup Script" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2M8VGYZlsZ9jd5t8j3TfMvdYae0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bogda/PycharmProjects/pythonHomework&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bogda\PycharmProjects\pythonHomework\venv\Homework2" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\bogda\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0bac68e0-4832-425b-85cf-41a0921b4704" name="Changes" comment="" />
+      <created>1677149100275</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677149100275</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Homework1">
+      <created>1677161474619</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677161474619</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Homework2">
+      <created>1677697557059</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677697557059</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Homework2">
+      <created>1677704471490</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677704471490</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Homework2">
+      <created>1677704661601</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677704661601</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Homework2">
+      <created>1677747627001</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677747627001</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Homework2">
+      <created>1677760218542</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677760218542</updated>
+    </task>
+    <task id="LOCAL-00007" summary="homework1 updated">
+      <created>1677848332762</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677848332762</updated>
+    </task>
+    <task id="LOCAL-00008" summary="homework2 refurbished">
+      <created>1678440501888</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678440501888</updated>
+    </task>
+    <task id="LOCAL-00009" summary="homework2 refurbished">
+      <created>1678463327240</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678463327240</updated>
+    </task>
+    <task id="LOCAL-00010" summary="homework3">
+      <created>1678489646172</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678489646172</updated>
+    </task>
+    <task id="LOCAL-00011" summary="homework3.updated">
+      <created>1678542178360</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678542178360</updated>
+    </task>
+    <task id="LOCAL-00012" summary="homework3.updated">
+      <created>1678780175073</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678780175073</updated>
+    </task>
+    <task id="LOCAL-00013" summary="homework3.updated">
+      <created>1678780304586</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678780304586</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Homework2.updated">
+      <created>1678786637935</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678786637935</updated>
+    </task>
+    <task id="LOCAL-00015" summary="homework3">
+      <created>1678966176495</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678966176495</updated>
+    </task>
+    <task id="LOCAL-00016" summary="homework3.5">
+      <created>1679058009920</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1679058009920</updated>
+    </task>
+    <task id="LOCAL-00017" summary="homework3">
+      <created>1679058023069</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1679058023069</updated>
+    </task>
+    <task id="LOCAL-00018" summary="homework2 refurbished">
+      <created>1679404340741</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1679404340741</updated>
+    </task>
+    <task id="LOCAL-00019" summary="homework3">
+      <created>1679404386472</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1679404386472</updated>
+    </task>
+    <task id="LOCAL-00020" summary="homework4">
+      <created>1679404402008</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1679404402008</updated>
+    </task>
+    <task id="LOCAL-00021" summary="homework3.5">
+      <created>1679557068721</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1679557068721</updated>
+    </task>
+    <task id="LOCAL-00022" summary="homework3">
+      <created>1679557669869</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1679557669869</updated>
+    </task>
+    <task id="LOCAL-00023" summary="homework4">
+      <created>1680515858822</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1680515858822</updated>
+    </task>
+    <task id="LOCAL-00024" summary="homework4">
+      <created>1680517833709</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1680517833709</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
+    <servers />
+  </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <option name="startingDirectory" value="C:\Users\bogda\PycharmProjects\pythonHomework\homework4" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Homework1" />
+    <MESSAGE value="Homework2" />
+    <MESSAGE value="homework1 updated" />
+    <MESSAGE value="homework3.updated" />
+    <MESSAGE value="Homework2.updated" />
+    <MESSAGE value="homework2 refurbished" />
+    <MESSAGE value="homework3.5" />
+    <MESSAGE value="homework3" />
+    <MESSAGE value="homework4" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework4" />
+  </component>
+</project>
