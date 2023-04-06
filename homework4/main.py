@@ -25,45 +25,24 @@ if __name__ == '__main__':
     print("Cars with price high are: ", expensive_cars)
 
     # point 3
-    import os
     import csv
-    import json
 
-    data = {}
+    filename = "input.csv"
+    header = ["BRAND", "MODEL", "HP", "PRICE"]
+    data = [
+        ["OPEL", "ASTRA H", 150, 2500],
+        ["DACIA", "LOGAN I", 100, 900],
+        ["BMW", "520D", 190, 15000],
+        ["FORD", "FOCUS II", 130, 2000],
+        ["DACIA", "SANDERO I", 90, 700],
+        ["VOLKSWAGEN", "PASSAT B6", 170, 5000],
+        ["SKODA", "SUPERB I", 150, 4000],
+        ["AUDI", "A6 C7", 190, 13000],
+        ["MERCEDES-BENZ", "E-KLASSE W212", 204, 170000],
+        ["SKODA", "OCTAVIA II", 140, 3000]
 
-    with open('input.csv', newline='') as csvfile:
-        reader = csv.DictReader(csvfile)
-        for row in reader:
-            BRAND = row["BRAND"]
-            if BRAND not in data:
-                data[BRAND] = []
-            data[BRAND].append(row)
-
-
-            def is_slow_car(car6):
-                return int(car6["HORSEPOWER"]) < 120
-
-
-            def is_fast_car(car7):
-                return 120 < int(car7["HORSEPOWER"]) < 180
-
-
-            def is_sport_car(car8):
-                return int(car8["HORSEPOWER"]) >= 180
-
-
-            def is_cheap_car(car9):
-                return int(car9["PRICE"]) < 1000
-
-
-            def is_medium_car(car10):
-                return 1000 < int(car10["PRICE"] < 5000)
-
-
-            def is_expensive_car(car11):
-                return int(car11["PRICE"]) >= 5000
-
-    output_folder = 'output_data'
-    if not os.path.exists(output_folder):
-        os.makedirs(output_folder)
-
+    ]
+    with open(filename, 'w', newline="") as file:
+        csvwriter = csv.writer(file)
+        csvwriter.writerow(header)
+        csvwriter.writerows(data)
