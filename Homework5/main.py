@@ -11,12 +11,21 @@ class Fraction:
         suma_numaratorilor = (self.numarator * other.numitor) + (other.numarator * self.numitor)
         return Fraction(suma_numaratorilor, comun)
 
+    def __sub__(self, other):
+        comun1 = self.numitor * other.numitor
+        scaderea_numaratorilor = (self.numarator * other.numitor) - (other.numarator * self.numitor)
+        return Fraction(scaderea_numaratorilor, comun1)
+
+    def inverse(self):
+        return 1 / (self.numarator * self.numitor)
+
 
 if __name__ == '__main__':
-    number1 = Fraction(12, 10, )
+    number1 = Fraction(40, 10, )
+    print(number1)
     number2 = Fraction(30, 12, )
     result = number1 + number2
     print(result)
-    # # number2=Fraction(10,30)
-    # # result=number1 __add__number2
-    # print(result)
+    result1 = number1 - number2
+    print(result1)
+    print(number1.inverse())
