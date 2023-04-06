@@ -17,7 +17,7 @@ class Fraction:
         return Fraction(down_numerators, comun1)
 
     def inverse(self):
-        return 1 / (self.numerator * self.denominator)
+            self.numerator, self.denominator = self.denominator, self.numerator
 
 
 if __name__ == '__main__':
@@ -28,4 +28,5 @@ if __name__ == '__main__':
     print(result)
     result1 = number1 - number2
     print(result1)
-    print(number1.inverse())
+    Fraction.inverse(number1)
+    print(number1)
