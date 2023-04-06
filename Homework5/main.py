@@ -1,23 +1,23 @@
 class Fraction:
-    def __init__(self, numarator, numitor):
-        self.numarator = numarator
-        self.numitor = numitor
+    def __init__(self, numerator, denominator):
+        self.numerator = numerator
+        self.denominator = denominator
 
     def __str__(self):
-        return f"Numaratorul este {self.numarator} si numitorul este {self.numitor}."
+        return f"Numaratorul este {self.numerator} si numitorul este {self.denominator}."
 
     def __add__(self, other):
-        comun = self.numitor * other.numitor
-        suma_numaratorilor = (self.numarator * other.numitor) + (other.numarator * self.numitor)
-        return Fraction(suma_numaratorilor, comun)
+        comun = self.denominator * other.denominator
+        sum_numerators = (self.numerator * other.denominator) + (other.numerator * self.denominator)
+        return Fraction(sum_numerators, comun)
 
     def __sub__(self, other):
-        comun1 = self.numitor * other.numitor
-        scaderea_numaratorilor = (self.numarator * other.numitor) - (other.numarator * self.numitor)
-        return Fraction(scaderea_numaratorilor, comun1)
+        comun1 = self.denominator * other.denominator
+        down_numerators = (self.numerator * other.denominator) - (other.numerator * self.denominator)
+        return Fraction(down_numerators, comun1)
 
     def inverse(self):
-        return 1 / (self.numarator * self.numitor)
+        return 1 / (self.numerator * self.denominator)
 
 
 if __name__ == '__main__':
