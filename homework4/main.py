@@ -3,6 +3,7 @@ import shutil
 import os
 import json
 import uuid
+from itertools import groupby
 
 OUTPUT_DIRECTORY = "output_data"
 CATEGORIES = {
@@ -46,11 +47,10 @@ def process_data(cars: list):
     brands=set(car["BRAND"].lower() for car in cars)
     os.makedirs(f"{OUTPUT_DIRECTORY}/brands")
 
-    for brand in brands:
-        data=[car for car in cars if car["BRAND"].lower()==brand]
+
+
+    for brand, group in groupby(cars, key=lambda car: car["BRAND"].lower()):
         write_to_file(f"brands/{brand}.json", data)
-
-
 def write_to_file(file_name: str, cars1: list):
     with open(f"output_data/{file_name}", "w") as file:
         json.dump(cars1, file, indent=2)

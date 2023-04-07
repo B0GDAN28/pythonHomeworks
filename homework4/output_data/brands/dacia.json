@@ -1,16 +1,23 @@
 [
   {
-    "id": "be897308-2e8a-4244-a8bc-d837249f61ab",
-    "HP": 100,
-    "PRICE": 900.0,
-    "BRAND": "DACIA",
-    "MODEL": "LOGAN I"
+    "id": "21186452-c9c0-4374-987c-48be73aade05",
+    "HP": 190,
+    "PRICE": 15000.0,
+    "BRAND": "BMW",
+    "MODEL": "520D"
   },
   {
-    "id": "f2d1d4b0-10ab-4aeb-9a63-acfc254a7f49",
-    "HP": 90,
-    "PRICE": 700.0,
-    "BRAND": "DACIA",
-    "MODEL": "SANDERO I"
+    "id": "ebcb3141-e20a-482d-b452-1ee67a951168",
+    "HP": 190,
+    "PRICE": 13000.0,
+    "BRAND": "AUDI",
+    "MODEL": "A6 C7"
+  },
+  {
+    "id": "3587edfe-81dd-4512-9635-6b00a906eb2e",
+    "HP": 204,
+    "PRICE": 170000.0,
+    "BRAND": "MERCEDES-BENZ",
+    "MODEL": "E-KLASSE W212"
   }
 ]

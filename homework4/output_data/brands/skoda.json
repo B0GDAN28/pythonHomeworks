@@ -1,16 +1,23 @@
 [
   {
-    "id": "2a190cc8-03b6-4a0e-baea-3212a9a11fbe",
-    "HP": 150,
-    "PRICE": 4000.0,
-    "BRAND": "SKODA",
-    "MODEL": "SUPERB I"
+    "id": "21186452-c9c0-4374-987c-48be73aade05",
+    "HP": 190,
+    "PRICE": 15000.0,
+    "BRAND": "BMW",
+    "MODEL": "520D"
   },
   {
-    "id": "1c9f76d9-e62b-49b7-9415-bf1bc689ccae",
-    "HP": 140,
-    "PRICE": 3000.0,
-    "BRAND": "SKODA",
-    "MODEL": "OCTAVIA II"
+    "id": "ebcb3141-e20a-482d-b452-1ee67a951168",
+    "HP": 190,
+    "PRICE": 13000.0,
+    "BRAND": "AUDI",
+    "MODEL": "A6 C7"
+  },
+  {
+    "id": "3587edfe-81dd-4512-9635-6b00a906eb2e",
+    "HP": 204,
+    "PRICE": 170000.0,
+    "BRAND": "MERCEDES-BENZ",
+    "MODEL": "E-KLASSE W212"
   }
 ]
