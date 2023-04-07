@@ -1,0 +1,23 @@
+[
+  {
+    "id": "920ceb95-bf61-4e70-8ffe-ed3c7f725542",
+    "HP": 190,
+    "PRICE": 15000.0,
+    "BRAND": "BMW",
+    "MODEL": "520D"
+  },
+  {
+    "id": "9258df18-d666-425d-8681-4e5897b3aeca",
+    "HP": 190,
+    "PRICE": 13000.0,
+    "BRAND": "AUDI",
+    "MODEL": "A6 C7"
+  },
+  {
+    "id": "f849cc7b-14a3-4c09-9119-e4750a1dfcc6",
+    "HP": 204,
+    "PRICE": 170000.0,
+    "BRAND": "MERCEDES-BENZ",
+    "MODEL": "E-KLASSE W212"
+  }
+]
