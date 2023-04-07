@@ -43,6 +43,13 @@ def process_data(cars: list):
         data = [car for car in cars if condition_function(car)]
         write_to_file(f"{key}.json", data)
 
+    brands=set(car["BRAND"].lower() for car in cars)
+    os.makedirs(f"{OUTPUT_DIRECTORY}/brands")
+
+    for brand in brands:
+        data=[car for car in cars if car["BRAND"].lower()==brand]
+        write_to_file(f"brands/{brand}.json", data)
+
 
 def write_to_file(file_name: str, cars1: list):
     with open(f"output_data/{file_name}", "w") as file:

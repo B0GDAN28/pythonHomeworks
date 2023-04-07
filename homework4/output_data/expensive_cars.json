@@ -1,20 +1,20 @@
 [
   {
-    "id": "46015627-ba5d-4ac3-92fc-4c483368989d",
+    "id": "c38561cb-8b2c-4c0f-a3f5-cb3986166cb4",
     "HP": 190,
     "PRICE": 15000.0,
     "BRAND": "BMW",
     "MODEL": "520D"
   },
   {
-    "id": "daf25a09-5f15-43f6-a0c9-8b68841af794",
+    "id": "9c6e5ccd-9da4-49ea-9dcf-62dd40397765",
     "HP": 190,
     "PRICE": 13000.0,
     "BRAND": "AUDI",
     "MODEL": "A6 C7"
   },
   {
-    "id": "1a654b6f-c82d-4a2d-bd54-5fa77bc3ba2b",
+    "id": "5a0b5cd3-4303-4351-93da-8d60f96c6f89",
     "HP": 204,
     "PRICE": 170000.0,
     "BRAND": "MERCEDES-BENZ",
