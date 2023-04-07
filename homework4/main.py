@@ -39,18 +39,17 @@ def get_input():
 
 
 def process_data(cars: list):
-
     for key, condition_function in CATEGORIES.items():
         data = [car for car in cars if condition_function(car)]
         write_to_file(f"{key}.json", data)
 
-    brands=set(car["BRAND"].lower() for car in cars)
+    brands = set(car["BRAND"].lower() for car in cars)
     os.makedirs(f"{OUTPUT_DIRECTORY}/brands")
-
-
 
     for brand, group in groupby(cars, key=lambda car: car["BRAND"].lower()):
         write_to_file(f"brands/{brand}.json", data)
+
+
 def write_to_file(file_name: str, cars1: list):
     with open(f"output_data/{file_name}", "w") as file:
         json.dump(cars1, file, indent=2)
