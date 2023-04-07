@@ -1,27 +1,27 @@
 [
   {
-    "id": "0171230a-f421-417d-b685-14524dac213f",
+    "id": "e9837291-261d-4ebf-a467-dd5e0d691790",
     "HP": 150,
     "PRICE": 2500.0,
     "BRAND": "OPEL",
     "MODEL": "ASTRA H"
   },
   {
-    "id": "ba42e398-f0ee-43e2-a529-5a9e3fea8cd1",
+    "id": "cb192967-5b55-44f1-839e-14d59373c203",
     "HP": 130,
     "PRICE": 2000.0,
     "BRAND": "FORD",
     "MODEL": "FOCUS II"
   },
   {
-    "id": "8ca5fb35-45a6-466f-aba1-657ebebccad6",
+    "id": "9eaa65e0-ff98-40f0-8497-25f8705e49c4",
     "HP": 150,
     "PRICE": 4000.0,
     "BRAND": "SKODA",
     "MODEL": "SUPERB I"
   },
   {
-    "id": "80a552d0-d521-4891-8d08-d7679c19aa2e",
+    "id": "fd7b5736-8c49-4e9d-bc2c-c85f83d98937",
     "HP": 140,
     "PRICE": 3000.0,
     "BRAND": "SKODA",
